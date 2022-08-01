@@ -180,35 +180,21 @@ donates:
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: ''
-    # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
-        # URL to the "Buy me a coffee" page
-        url: ''
-    # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
-    # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
+        qrcode: '/img/codedm-alipay.png'
+
     # Wechat donate button configurations
     -
         type: wechat
         # Wechat qrcode image URL
-        qrcode: ''
+        qrcode: '/img/codedm-wxpay.png'
+
+
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: ''
+#share:
+#    type: sharethis
+#    # URL to the ShareThis share plugin script
+#    install_url: ''
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -280,14 +266,14 @@ widgets:
         amount: 20          # 可选项。最多显示的标签数量。留空以显示所有标签。
         show_count: true    # 可选项。是否显示标签名称右侧的文章数量。
     # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: right
+#        type: links
+#        # Names and URLs of the sites
+#        links:
+#            Hexo: https://hexo.io
+#            Bulma: https://bulma.io
     # Archives widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -305,14 +291,14 @@ widgets:
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: right
+#        type: subscribe_email
+#        # Hint text under the email input
+#        description:
+#        # Feedburner ID
+#        feedburner_id: ''
     # Google AdSense unit configurations
 #    -
 #        # Where should the widget be placed, left sidebar or right sidebar

@@ -1,0 +1,62 @@
+# Sidebar configurations.
+# Please be noted that a sidebar is only visible when it has at least one widget
+sidebar:
+  # Left sidebar configurations
+  left:
+    # Whether the sidebar sticks to the top when page scrolls
+    sticky: true
+  # Right sidebar configurations
+  right:
+    # Whether the sidebar sticks to the top when page scrolls
+    sticky: false
+# Sidebar widget configurations
+# http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
+widgets:
+  # Profile widget configurations
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    type: profile
+    # Author name
+    author: Codedm
+    # Author title
+    author_title: Codedm的Java小站
+    # Author's current location
+    location: 中国 * 南京
+    # URL or path to the avatar image
+    avatar:
+    # Whether show the rounded avatar image
+    avatar_rounded: false
+    # Email address for the Gravatar
+    gravatar:
+    # URL or path for the follow button
+    follow_link: https://github.com/Code-dm
+    # Links to be shown on the bottom of the profile widget
+    social_links:
+      Github:
+        icon: fab fa-github
+        url: https://github.com/Code-dm
+      Zhihu:
+        icon: fab fa-zhihu
+        url: https://www.zhihu.com/people/zhi-zhe-hu-zhi-zhe
+  # Table of contents widget configurations
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    type: toc
+    # Whether to show the index of each heading
+    index: true
+  # Categories widget configurations
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    type: categories
+  # Tags widget configurations
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    type: tags
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: right
+    type: catagory_posts

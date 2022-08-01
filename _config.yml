@@ -5,9 +5,15 @@ keywords: null
 author: Codedm
 language: zh-CN
 timezone: ''
-url: http://example.com
-permalink: ':year/:month/:day/:title/'
+url: https://codedm.com
+#permalink: ':year/:month/:day/:title/'
+root: /
+permalink: posts/:abbrlink.html
 permalink_defaults: null
+# abbrlink config
+abbrlink:
+  alg: crc32  #support crc16(default) and crc32
+  rep: hex    #support dec(default) and hex
 pretty_urls:
   trailing_index: true
   trailing_html: true
